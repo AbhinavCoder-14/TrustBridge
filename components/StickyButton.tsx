@@ -10,6 +10,7 @@ const StickyButton: React.FC = () => {
             onClick={handleClick} 
             style={{
                 position: 'fixed',
+                zIndex:10,
                 bottom: '20px',
                 right: '20px',
                 padding: '10px 20px',

@@ -30,10 +30,7 @@ export default function Header() {
             </Button>
           </SignedOut>
 
-          <SignedOut>
-            {/* No <Button> wrapping SignInButton to prevent hydration error */}
-            <SignInButton mode="modal" />
-          </SignedOut>
+      
 
           <SignedIn>
             <Button onClick={() => setShowEscrowForm(!showEscrowForm)}>

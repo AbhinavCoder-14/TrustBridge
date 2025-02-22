@@ -4,7 +4,7 @@ import Features from "@/components/features"
 import TrustLevels from "@/components/trust-levels"
 import CallToAction from "@/components/call-to-action"
 import Footer from "@/components/footer"
-
+import VidOverlay from '@/components/vidOverlay';
 import StickyButton from "@/components/StickyButton"
 
 export default function Home() {
@@ -13,7 +13,8 @@ export default function Home() {
       <StickyButton/>
       <Header />
       <main>
-        <Hero />
+      <VidOverlay />
+        {/* <Hero /> */}
         <Features />
         <TrustLevels />
         <CallToAction />
